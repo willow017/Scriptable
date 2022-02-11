@@ -3,10 +3,13 @@
 *version: 0.0.1
 *time: 12/2/2022
 *github: https://github.com/willow017/Scriptable
+*instruction: key为心知天气API私钥
+*             dizhi为市级地名
+*             imgurl为背景图链接
 **/
-const key = 'SKZNpwsvUIC47MDri'
-const dizhi = 'Zunyi'
-const imgurl = 'https://pic.netbian.com/uploads/allimg/210317/001935-1615911575642b.jpg'
+const key = ''
+const dizhi = ''
+const imgurl = ''
 
 async function getdata() {
     const url = 'https://api.seniverse.com/v3/weather/now.json?key=' + key + '&location=' + dizhi + '&language=zh-Hans&unit=c'
