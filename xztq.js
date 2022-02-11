@@ -56,7 +56,7 @@ async function renderSmall(data, yubao, img) {
     
     return widget
   } else {
-    console.log("没用数据")
+    console.log("没有数据")
   }
     
 }
