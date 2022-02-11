@@ -3,9 +3,9 @@
 *version: 0.0.1
 *time: 12/2/2022
 *github: https://github.com/willow017/Scriptable
-*instruction: key为心知天气API私钥
-*             dizhi为市级地名
-*             imgurl为背景图链接
+*instruction: key-----心知天气API私钥
+*             dizhi---市级地名
+*             imgurl--背景图链接
 **/
 const key = ''
 const dizhi = ''
