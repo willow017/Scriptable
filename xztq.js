@@ -1,6 +1,6 @@
 const key = 'SKZNpwsvUIC47MDri'
 const dizhi = 'Zunyi'
-const imgurl = 'https://pic.netbian.com/uploads/allimg/220118/123915-1642480755aebf.jpg'
+const imgurl = 'https://pic.netbian.com/uploads/allimg/210317/001935-1615911575642b.jpg'
 
 async function getdata() {
     const url = 'https://api.seniverse.com/v3/weather/now.json?key=' + key + '&location=' + dizhi + '&language=zh-Hans&unit=c'
