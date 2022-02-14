@@ -1,3 +1,9 @@
+/**
+*author: willow
+*version: 0.0.1
+*time: 15/2/2022
+*github: https://github.com/willow017/Scriptable
+**/
 async function saohua() {
   let url = 'https://api.vvhan.com/api/sao?type=json'
   let req = new Request(url)
