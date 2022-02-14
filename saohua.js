@@ -33,9 +33,14 @@ async function getImge(imgurl) {
 async function small(imgurl, sao) {
   if(imgurl && sao){
     const widget = new ListWidget()
+    const bg = new LinearGradient()
+    bg.locations = [0, 1]
+    bg.colors = [Color.white(), Color.black()]
+    widget.backgroundGradient = bg
     const header = widget.addStack()
     const img = header.addImage(await getImge(imgurl))
     img.imageSize = new Size(300, 120)
+    img.centerAlignImage()
     const body = widget.addStack()
     const yy = body.addText(`${sao.ishan}`)
     yy.centerAlignText()
